@@ -1,0 +1,65 @@
+.section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    padding: 150px 0;
+}
+
+.info-subtitle,
+.info-title,
+.main-title {
+    height: 100%;
+    width: 90%;
+    
+}
+
+.main-title {
+    margin-bottom: 60px;
+}
+
+.info-subtitle {
+    margin-bottom: 60px;
+}
+
+.subtitle-text {
+    display: block;
+    width: 60%;
+    opacity: 0.7;
+}
+
+.info-text {
+    font-size: 50px;
+}
+
+.info-link {
+    position: relative;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-right: 35px;
+}
+
+.info-link::after,
+.info-link::before {
+    position: absolute;
+    content: '';
+}
+
+.info-link::after {
+    background-image: url('../../../../assets/images/8-ptpoly.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    top: -4px;
+    right: 0px;
+}
+
+.info-link::before {
+    background-image: url('../../../../assets/images/arrow-copy.png');
+    background-size: contain;
+    width: 7px;
+    height: 11px;
+    top: 3px;
+    right: 9px;
+    z-index: 1;
+}
